@@ -14,7 +14,7 @@ import { UserModule } from './user/user.module';
     BarcodeModule,
     MongooseModule.forRoot(process.env.MONGO_PATH),
     UserModule,
-    ShoppingItemModule
+    ShoppingItemModule,
 ],
   controllers: [AppController],
   providers: [AppService],
